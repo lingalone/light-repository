@@ -4,6 +4,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pivotal</groupId>
   <artifactId>greenplum</artifactId>
-  <version>0.0.1</version>
-  <description>POM was created by Sonatype Nexus</description>
+  <version>1.0</version>
 </project>
