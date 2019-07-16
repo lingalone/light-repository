@@ -13,4 +13,11 @@ mvn deploy 命令
 mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=E:\greenplum.jar -DgroupId=com.pivotal -DartifactId=greenplum -Dversion=1.0.0 -Dpackaging=jar -DrepositoryId=localRepository -Durl=file:D:/lib/lig
 ht-repository
 
+
+mvn install:install-file -Dfile=/Users/lingalone/Downloads/sdk-java-27670935/taobao-sdk-java-1.0.0.jar -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.0.0 -Dpackaging=jar
+
+mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.0.0 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/sdk-java-27670935/taobao-sdk-java-1.0.0.jar -Durl=file:/Users/lingalone/code/repository
+ -DrepositoryId=localRepository
+
+
 ```
