@@ -1,8 +1,12 @@
 ```
 <repositories>
     <repository>
-        <id>lingalone-maven</id>
+        <id>gitee-lingalone-maven</id>
         <url>https://gitee.com/lingalone/light-repository/raw/master/</url>
+    </repository>
+    <repository>
+        <id>github-lingalone-maven</id>
+        <url>https://github.com/lingalone/light-repository/raw/master</url>
     </repository>
 </repositories>
 ```
