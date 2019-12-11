@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.github.lingalone</groupId>
+  <artifactId>light-frame-dependencies</artifactId>
+  <version>2.0.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20191211.052714</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20191211052714</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.2-20191211.052714-1</value>
+        <updated>20191211052714</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

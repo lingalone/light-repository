@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.lingalone</groupId>
+    <artifactId>light-frame</artifactId>
+    <packaging>pom</packaging>
+    <version>2.0.2-SNAPSHOT</version>
+
+
+    <modules>
+        <module>light-frame-project</module>
+        <module>light-frame-tests</module>
+    </modules>
+
+    <!--版本号控制-->
+    <!--mvn versions:set -DnewVersion=0.0.1-SNAPSHOT-->
+
+    <distributionManagement>
+        <repository>
+            <id>localRepository</id>
+<!--            <url>file:D:/lib/light-repository</url>-->
+<!--            &lt;!&ndash;D:\lib\light-repository&ndash;&gt;-->
+            <url>file:/Users/lingalone/code/repository</url>
+        </repository>
+    </distributionManagement>
+</project>
