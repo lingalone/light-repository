@@ -18,9 +18,9 @@ mvn deploy:deploy-file -Dmaven.test.skip=true -Dfile=E:\greenplum.jar -DgroupId=
 ht-repository
 
 
-mvn install:install-file -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.0.0.jar -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.0.jar -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.0 -Dpackaging=jar
 
-mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.0.2 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.0.0.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
+mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.0 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.0.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
 
 
 
