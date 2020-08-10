@@ -25,3 +25,11 @@ mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversi
 
 
 ```
+
+```
+mvn install:install-file -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.1.jar -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.1 -Dpackaging=jar
+
+mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.1 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.1.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
+
+
+```
