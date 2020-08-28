@@ -25,11 +25,21 @@ mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversi
 
 
 ```
-
+淘宝客sdk
 ```
 mvn install:install-file -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.1.jar -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.1 -Dpackaging=jar
 
 mvn deploy:deploy-file -DgroupId=com.taobao -DartifactId=taobao-sdk-java -Dversion=1.1.1 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/sdk-java-27966921/taobao-sdk-java-1.1.1.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
+
+
+```
+
+京东sdk
+
+```
+mvn install:install-file -Dfile=/Users/lingalone/Downloads/open-api-sdk-2.0.jar -DgroupId=com.jd -DartifactId=open-api-sdk -Dversion=2.0 -Dpackaging=jar
+
+mvn deploy:deploy-file -DgroupId=com.jd -DartifactId=open-api-sdk -Dversion=2.0 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/open-api-sdk-2.0.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
 
 
 ```
