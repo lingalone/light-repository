@@ -74,3 +74,16 @@ mvn deploy:deploy-file -DgroupId=com.vivo.push -DartifactId=vpush-server-sdk -Dv
 
 
 ```
+
+
+
+
+拼多多sdk
+
+```
+mvn install:install-file -Dfile=/Users/lingalone/Downloads/pop-sdk-1.9.70-all.jar -DgroupId=com.pinduoduo -DartifactId=pop-sdk -Dversion=1.9.70 -Dpackaging=jar
+
+mvn deploy:deploy-file -DgroupId=com.pinduoduo -DartifactId=pop-sdk -Dversion=1.9.70 -Dpackaging=jar -Dfile=/Users/lingalone/Downloads/pop-sdk-1.9.70-all.jar -Durl=file:/Users/lingalone/code/repository -DrepositoryId=localRepository
+
+
+```
